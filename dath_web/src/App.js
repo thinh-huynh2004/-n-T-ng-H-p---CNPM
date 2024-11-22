@@ -19,12 +19,15 @@ function Layout() {
 
   return (
     <>
-      <LoginInterface/>
+      {/* <LoginInterface/> */}
+      <Routes>
+        <Route path="/login" element={<><LoginInterface /></>} />
+      </Routes>
       {shouldShowNavbar && <LeftNavbar />}
       {shouldShowNavbar && <TopNavbar />}
       {shouldShowNavbar && <HomepageUser />}
       <Routes>
-        <Route path="/login" element={<LoginInterface />} />
+        
         <Route path="/homepage" element={<HomepageUser />} />
         <Route path="/regist" element={<RegistBorrowBook />} />
         <Route path="/history" element={<HistoryBookBorrow />} />
