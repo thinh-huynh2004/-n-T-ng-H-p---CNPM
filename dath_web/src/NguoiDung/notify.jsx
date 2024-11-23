@@ -1,4 +1,4 @@
-import './notify.css';
+import './assets/css/notify.css';
 import { NoticeToUser } from './data';
 
 function Notification({ onClose, noticeClass}) {

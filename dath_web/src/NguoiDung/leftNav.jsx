@@ -1,4 +1,4 @@
-import './leftNav.css';
+import './assets/css/leftNav.css';
 import { Link } from 'react-router-dom';
 
 function LeftNavbar() {
@@ -6,7 +6,7 @@ function LeftNavbar() {
         <>
             <div className="left-nav-contain-navi">
                 <div className="logo_BK">
-                    <img src={require("./hcmut.png")} alt="" className="logo_bk_img" />
+                    <img src={require("./assets/img/hcmut.png")} alt="" className="logo_bk_img" />
                     <p>Thư viện</p>
                 </div>
                 <ul className="navigation">

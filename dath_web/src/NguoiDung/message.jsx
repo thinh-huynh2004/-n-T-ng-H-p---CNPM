@@ -1,4 +1,4 @@
-import './message.css';
+import './assets/css/message.css';
 import { ReceivedMessage } from './data';
 
 function MessageReceive({ onClose, divClass }) {

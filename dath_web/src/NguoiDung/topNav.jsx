@@ -1,4 +1,4 @@
-import './topNav.css';
+import './assets/css/topNav.css';
 import MessageReceive from './message';
 import Notification from './notify';
 import { useState } from 'react';

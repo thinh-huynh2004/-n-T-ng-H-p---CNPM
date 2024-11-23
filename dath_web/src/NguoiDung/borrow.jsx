@@ -1,4 +1,4 @@
-import './borrow.css';
+import './assets/css/borrow.css';
 import { BookBorrow } from './data';
 import { useState } from 'react';
 

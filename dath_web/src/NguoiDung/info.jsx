@@ -1,4 +1,4 @@
-import './info.css';
+import './assets/css/info.css';
 import avatar from './assets/img/Avatar.png'
 
 function InfoUser() {

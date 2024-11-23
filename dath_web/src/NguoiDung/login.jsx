@@ -1,4 +1,4 @@
-import './login.css';
+import './assets/css/login.css';
 import img from './assets/img/logo_bk.png';
 import { Link } from 'react-router-dom';
 
@@ -11,7 +11,7 @@ function LoginInterface() {
                 <div className="login">
                     <div className="login_left">
                         <div className="login_left_contain_img">
-                            <img src={require("./hcmut.png")} alt="" className="login_left_img" />
+                            <img src={require("./assets/img/hcmut.png")} alt="" className="login_left_img" />
                         </div>
                         <p className="login_left_name">THƯ VIỆN BK</p>
                     </div>

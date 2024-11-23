@@ -1,4 +1,4 @@
-import './homepage.css';
+import './assets/css/homepage.css';
 import { useState } from 'react';
 import { book } from './data';
 import LeftNavbar from './leftNav';
