@@ -1,5 +1,5 @@
-import './assets/css/notify.css';
-import { NoticeToUser } from './data';
+import './notify.css';
+import { NoticeToUser } from './data.jsx';
 
 function Notification({ onClose, noticeClass}) {
     return (

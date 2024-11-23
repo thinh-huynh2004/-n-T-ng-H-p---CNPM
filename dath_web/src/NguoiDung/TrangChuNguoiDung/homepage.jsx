@@ -1,8 +1,6 @@
-import './assets/css/homepage.css';
+import './homepage.css';
 import { useState } from 'react';
-import { book } from './data';
-import LeftNavbar from './leftNav';
-import TopNavbar from './topNav';
+import { book } from './data.jsx';
 
 function HomepageUser() {
     const [selectedGenre, setSelectedGenre] = useState("");

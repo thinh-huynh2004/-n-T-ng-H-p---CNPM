@@ -1,4 +1,4 @@
-import './assets/css/topNav.css';
+import './topNav.css';
 import MessageReceive from './message';
 import Notification from './notify';
 import { useState } from 'react';
@@ -69,7 +69,7 @@ function TopNavbar() {
                     </ul>
                     <div className="contain-avatar">
                         <Link to="information">
-                            <img src={require("./assets/img/image.jpg")} alt="" 
+                            <img src={require("./img/image.jpg")} alt="" 
                             className="img-of-contain-avatar" />
                         </Link>
                     </div>

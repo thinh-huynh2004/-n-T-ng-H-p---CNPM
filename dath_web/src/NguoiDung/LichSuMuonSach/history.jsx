@@ -1,4 +1,4 @@
-import './assets/css/history.css';
+import './history.css';
 import { bookReturn } from './data';
 
 function HistoryBookBorrow() {

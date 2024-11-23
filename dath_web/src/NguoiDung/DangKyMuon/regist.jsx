@@ -1,4 +1,4 @@
-import './assets/css/regist.css';
+import './regist.css';
 import {RegistBorrow} from './data.jsx';
 import { useState } from 'react';
 

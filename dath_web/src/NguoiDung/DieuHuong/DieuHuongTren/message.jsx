@@ -1,5 +1,5 @@
-import './assets/css/message.css';
-import { ReceivedMessage } from './data';
+import './message.css';
+import { ReceivedMessage } from './data.jsx';
 
 function MessageReceive({ onClose, divClass }) {
     return (

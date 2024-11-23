@@ -1,5 +1,5 @@
-import './assets/css/borrow.css';
-import { BookBorrow } from './data';
+import './borrow.css';
+import { BookBorrow } from './data.jsx';
 import { useState } from 'react';
 
 function BorrowBook() {

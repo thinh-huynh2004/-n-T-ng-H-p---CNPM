@@ -1,5 +1,4 @@
-import './assets/css/info.css';
-import avatar from './assets/img/Avatar.png'
+import './info.css';
 
 function InfoUser() {
     return (
@@ -90,7 +89,7 @@ function InfoUser() {
                     <div className="information-fullBox">
                         <div className="information-Box">
                             <div className="infoBox-avatar">
-                                <img src={require("./assets/img/image.jpg")} alt="" 
+                                <img src={require("./img/image.jpg")} alt="" 
                                 className='infoBox-avatar_avatar'/>
                             </div>
                             <div className="infoBox-about">
